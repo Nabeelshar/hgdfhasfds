@@ -1,0 +1,30 @@
+# Ignore all PHP files by default for security
+*.php
+
+# --- EXCEPTIONS ---
+# CRITICAL: DO NOT ignore the main WordPress index.php at the root
+!/index.php
+
+# --- SENSITIVE FILES & FOLDERS ---
+# Ignore the most critical WordPress configuration file and other sensitive files
+/wp-config.php
+/.htaccess
+/xmlrpc.php
+
+# Ignore other non-asset root files (many are already covered by *.php)
+/license.txt
+/readme.html
+/cgi-bin/
+
+# --- DYNAMIC CONTENT & CACHE ---
+# Ignore cache, logs, uploads, and backups
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+/wp-content/uploads/
+*.log
+debug.log
+
+# Ignore large zip files and our own plugin folder
+*.zip
+/wp-content/plugins/jscdn/

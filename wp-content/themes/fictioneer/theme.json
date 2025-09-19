@@ -1,0 +1,133 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "link": false,
+      "custom": false,
+      "duotone": [],
+      "customDuotone": false,
+      "defaultDuotone": false,
+      "gradients": [],
+      "customGradient": false,
+      "defaultGradients": false
+    },
+    "dimensions": {
+			"minHeight": false
+		},
+    "layout": {
+			"contentSize": "840px",
+			"wideSize": "840px"
+		},
+    "position": {
+			"sticky": false
+		},
+    "spacing": {
+			"margin": false,
+			"padding": false,
+			"units": ["px", "em", "rem"],
+			"spacingScale": {}
+		},
+    "shadow": {
+			"defaultPresets": false
+		},
+    "useRootPaddingAwareAlignments": false,
+    "typography": {
+      "dropCap": true,
+      "lineHeight": false,
+      "textTransform": false,
+      "letterSpacing": false,
+      "customFontSize": false,
+      "fluid": false,
+      "fontFamilies": [
+        {
+					"fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+					"slug": "system-fonts",
+					"name": "System fonts"
+				}
+      ],
+      "defaultFontSizes": false,
+      "fontSizes": [
+        {
+          "size": "var(--fs-em-xxs)",
+          "name": "Extra Small",
+          "slug": "extra-small"
+        },
+        {
+          "size": "var(--fs-em-xs)",
+          "name": "Small",
+          "slug": "small"
+        },
+        {
+          "size": "var(--fs-em-s)",
+          "name": "Normal",
+          "slug": "normal"
+        },
+        {
+          "size": "var(--fs-em-m)",
+          "name": "Medium",
+          "slug": "medium"
+        },
+        {
+          "size": "var(--fs-em-l)",
+          "name": "Large",
+          "slug": "large"
+        },
+        {
+          "size": "var(--fs-em-xl)",
+          "name": "Extra Large",
+          "slug": "extra-large"
+        },
+        {
+          "size": "var(--fs-em-xxl)",
+          "name": "Huge",
+          "slug": "huge"
+        },
+        {
+          "size": "var(--fs-em-xxxl)",
+          "name": "Gigantic",
+          "slug": "gigantic"
+        }
+      ]
+    },
+    "blocks": {
+      "core/image": {
+        "lightbox": {
+          "enabled": false,
+          "allowEditing": false
+        }
+      },
+      "core/gallery": {
+        "spacing": {
+          "blockGap": true,
+          "margin": false,
+          "padding": false,
+          "units": ["px", "em", "rem"]
+        }
+      },
+      "core/buttons": {
+        "spacing": {
+          "blockGap": true,
+          "padding": true,
+          "units": ["px", "em", "rem"]
+        }
+      },
+      "core/button": {
+        "color": {
+          "link": true
+        },
+        "spacing": {
+          "padding": true,
+          "margin": true,
+          "units": ["px", "em", "rem"]
+        }
+      },
+      "core/file": {
+        "color": {
+          "background": false
+        }
+      }
+    }
+  }
+}
